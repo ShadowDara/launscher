@@ -57,6 +57,18 @@ endif()
 target_include_directories("${CMAKE_PROJECT_NAME}" PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include/")
 
 
+if(MSVC)
+    target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE
+        $<$<CONFIG:Release>:/O2>
+        $<$<CONFIG:Release>:/GL>
+    )
+
+    target_link_options(${CMAKE_PROJECT_NAME} PRIVATE
+        $<$<CONFIG:Release>:/LTCG>
+    )
+endif()
+
+
 # ON MSCV
 if(MSVC)
     # No Console on Windows
