@@ -19,3 +19,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+LICENSES for assets used for launscher
+
+Project used Material by crusenho from
+https://crusenho.itch.io/icons-essential-pack-free-icons used
+under CC BY 4.0. Changes were made.
+
+https://creativecommons.org/licenses/by/4.0/
