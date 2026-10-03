@@ -1,0 +1,27 @@
+{
+    "projectname": "wxwidgetstemplate",
+    "pretty": true,
+    "links": [],
+    "links2": [],
+    "links3": [],
+    "links4": [],
+    "links5": [],
+    "linkspkglock": [],
+    "linkscargolock": [],
+    "settings": {
+        "selectmenu": false
+    },
+    "git": {
+        "submodules": [
+            {
+                "desc": "wxwidgets source",
+                "clonedir": "wxwidgets",
+                "dir": "thirdparty",
+                "repolink": "https://github.com/wxWidgets/wxWidgets",
+                "repocommit": "670835aec7e54b9e9d5a50d6a1aea1e8ba0bcdb2"
+            }
+        ]
+    },
+    "note": "This file was generated with linksaver from seg from the samengine project. https://samengine.js.org or https://github.com/shadowdara/seg",
+    "$schema": "https://raw.githubusercontent.com/ShadowDara/samengine/refs/heads/master/.samengine/shema.linksaver.json"
+}

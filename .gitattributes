@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# handle samfile as shell
+samfile linguist-language=Shell
+
+thirdparty/ linguist-vendored
+include/more/ linguist-vendored
