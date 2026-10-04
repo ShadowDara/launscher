@@ -1,2 +1,5 @@
 /.vs
 /out
+
+thirdparty/wxwidgets/
+thirdparty2/

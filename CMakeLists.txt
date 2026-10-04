@@ -61,6 +61,9 @@ if(MSVC)
     target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE
         $<$<CONFIG:Release>:/O2>
         $<$<CONFIG:Release>:/GL>
+
+        # only for this cpu
+        $<$<CONFIG:Release>:/arch:AVX2>
     )
 
     target_link_options(${CMAKE_PROJECT_NAME} PRIVATE
