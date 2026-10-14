@@ -287,8 +287,8 @@ class EntryDialog : public wxDialog
                            wxSize(370, 90), wxTE_MULTILINE | wxTE_WORDWRAP);
         image = new wxTextCtrl(this, wxID_ANY, W(e.image));
         script = new wxTextCtrl(this, wxID_ANY, W(e.script));
-        auto *bImg = new wxButton(this, wxID_ANY, W("Wählen"));
-        auto *bScr = new wxButton(this, wxID_ANY, W("Wählen"));
+        auto *bImg = new wxButton(this, wxID_ANY, "Wählen");
+        auto *bScr = new wxButton(this, wxID_ANY, "Wählen");
 
         auto *rowImg = new wxBoxSizer(wxHORIZONTAL);
         rowImg->Add(image, 1, wxEXPAND | wxRIGHT, 5);
