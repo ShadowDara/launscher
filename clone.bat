@@ -1,5 +1,7 @@
 @echo off
 
+mkdir "thirdparty"
+
 cd /d "thirdparty"
 
 git clone https://github.com/wxWidgets/wxWidgets wxwidgets
